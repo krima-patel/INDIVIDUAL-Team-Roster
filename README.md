@@ -22,7 +22,7 @@ ___
 #### 4. Go to the **NEXT** section
 
 ## Starting the Project
-1. Create a Firebase project and set up authentication. Use [these videos](https://vimeo.com/showcase/codetracker-firebase) as a refresher if needed.
+1. Create a Firebase project and set up authentication. Use [these videos](https:/21/vimeo.com/showcase/codetracker-firebase) as a refresher if needed.
 1. Create a `.env` file at the root of the project
 1. Copy/Paste the contents of the `.env.sample` file to your newly created `.env` file.
 1. Copy over all of your Firebase values into the `.env` file.
