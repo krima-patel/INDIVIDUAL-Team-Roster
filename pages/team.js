@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { Button } from 'react-bootstrap';
-import Link from 'next/link';
 // import { signOut } from '../utils/auth';
 import { useAuth } from '../utils/context/authContext';
 import { getPlayers } from '../api/playerData';
@@ -18,12 +16,9 @@ function Team() {
   }, [user.uid]);
 
   return (
-    <div className="text-center my-4">
-      <Link href="/player/new" passHref>
-        <Button>Add A Player</Button>
-      </Link>
+    <div className="text-center">
+      <h1>THE TEAM</h1>
       <div className="d-flex flex-wrap">
-        {/* TODO: map over books here using BookCard component */}
         {team.map((player) => (
           <PlayerCard key={player.firebaseKey} playerObj={player} onUpdate={getTeam} />
         ))}

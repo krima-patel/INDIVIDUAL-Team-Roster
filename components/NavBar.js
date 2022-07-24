@@ -23,7 +23,7 @@ export default function NavBar() {
             {/* <Link passHref href="/players">
               <Nav.Link>The Players</Nav.Link>
             </Link> */}
-            <Link passHref href="/player/new">
+            <Link passHref href="/new">
               <Nav.Link>Add a Player</Nav.Link>
             </Link>
             <Button variant="danger" onClick={signOut}>Sign Out</Button>
