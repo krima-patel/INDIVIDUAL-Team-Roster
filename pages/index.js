@@ -4,6 +4,7 @@ import { useAuth } from '../utils/context/authContext';
 
 function Home() {
   const { user } = useAuth();
+  // console.warn(user.uid);
 
   return (
     <div

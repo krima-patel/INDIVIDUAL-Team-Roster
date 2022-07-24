@@ -9,7 +9,7 @@ export default function PlayerCard({
   playerObj, onUpdate,
 }) {
   const deletePlayer = () => {
-    if (window.confirm(`Remove ${playerObj.name} from this team?!`)) {
+    if (window.confirm(`Are you sure you want to remove ${playerObj.name} from this team?!`)) {
       deleteSinglePlayer(playerObj.firebaseKey).then(() => onUpdate());
     }
   };
@@ -20,10 +20,7 @@ export default function PlayerCard({
           <Card.Title>{playerObj.name}</Card.Title>
           <Card.Img variant="top" src={playerObj.image} />
           <Card.Subtitle className="mb-2 text-muted">{playerObj.position}</Card.Subtitle>
-          <Link href={`/player/${playerObj.firebaseKey}`} passHref>
-            <Button variant="primary" className="m-2">View</Button>
-          </Link>
-          <Link href={`/player/edit/${playerObj.firebaseKey}`} passHref>
+          <Link href={`/edit/${playerObj.firebaseKey}`} passHref>
             <Button variant="info">Edit</Button>
           </Link>
           <Button variant="danger" onClick={deletePlayer} className="m-2">Delete</Button>
