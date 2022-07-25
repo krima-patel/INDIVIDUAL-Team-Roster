@@ -4,8 +4,20 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+  margin: 20px;
+  color: black;
+}
+
+.sign-in, p {
+  color: white;
+}
+
+.sign-out {
+  color: white;
 }
 
 a {
@@ -15,8 +27,22 @@ a {
 
 * {
   box-sizing: border-box;
+  margin: 5px;
 }
 
 body {
-  background-color: #88effd;
+  background-color: #000000;
+  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(254,33,78,1) 100%);
+}
+
+.player-card {
+  color: red;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-transform: uppercase;
+}
+
+.mb-2 {
+  margin-top: 10px;
+  color: rgb(117, 117, 117);
+  font-size: larger;
 }
