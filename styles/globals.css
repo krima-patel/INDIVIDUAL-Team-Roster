@@ -10,6 +10,7 @@ body {
 h1 {
   margin: 20px;
   color: black;
+  letter-spacing: 5px;
 }
 
 .sign-in, p {
@@ -32,13 +33,24 @@ a {
 
 body {
   background-color: #000000;
-  background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(254,33,78,1) 100%);
+  background: radial-gradient(circle, rgb(117, 117, 117) 0%, rgba(254,33,78,1) 100%);
+}
+
+.card-img-top {
+width: 100%;
+height: 40vh;
+object-fit: cover;
 }
 
 .player-card {
   color: red;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.delete-btn {
+  letter-spacing: 2px;
 }
 
 .mb-2 {

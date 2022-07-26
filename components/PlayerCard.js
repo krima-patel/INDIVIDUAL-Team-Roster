@@ -18,12 +18,12 @@ export default function PlayerCard({
       <Card className="player-card" style={{ width: '18rem' }}>
         <Card.Body>
           <Card.Title>{playerObj.name}</Card.Title>
-          <Card.Img variant="top" src={playerObj.image} />
+          <Card.Img variant="top" className=".card-img-top" src={playerObj.image} />
           <Card.Subtitle className="mb-2">{playerObj.position}</Card.Subtitle>
           <Link href={`/edit/${playerObj.firebaseKey}`} passHref>
-            <Button variant="primary">Edit</Button>
+            <Button variant="primary">EDIT</Button>
           </Link>
-          <Button variant="danger" onClick={deletePlayer} className="m-2">Delete</Button>
+          <Button variant="danger" className="delete-btn" onClick={deletePlayer}>DELETE</Button>
         </Card.Body>
       </Card>
     </>
