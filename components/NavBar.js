@@ -10,7 +10,7 @@ export default function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
       <Container>
-        <Link passHref href="/">
+        <Link passHref href="/team">
           <Navbar.Brand>TEAM MONSTER MASH 🏀</Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
