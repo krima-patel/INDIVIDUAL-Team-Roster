@@ -9,16 +9,18 @@ body {
 
 h1 {
   margin: 20px;
-  color: black;
+  color: white;
   letter-spacing: 5px;
+  text-decoration: underline;
 }
 
-.sign-in, p {
+.sign-out, h3 {
   color: white;
+  margin-top: 30px;
 }
 
-.sign-out {
-  color: white;
+.copy-btn {
+  margin-top: 30px;
 }
 
 a {
