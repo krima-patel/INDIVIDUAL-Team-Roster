@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import PropTypes from 'react-bootstrap/esm/Image';
+import PropTypes from 'prop-types';
 import { Form, Button } from 'react-bootstrap';
 
 const initialState = {
   search: '',
 };
 
-function Search({ team, setFilteredPlayers }) {
+export default function Search({ team, setFilteredPlayers }) {
   const [searchInput, setSearchInput] = useState();
   const handleChange = (e) => {
     const { value } = e.target;
@@ -29,5 +29,3 @@ Search.propTypes = {
   })).isRequired,
   setFilteredPlayers: PropTypes.func.isRequired,
 };
-
-export default Search;
