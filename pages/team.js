@@ -21,9 +21,8 @@ function Team() {
 
   return (
     <div className="text-center">
-      <h1>THE TEAM</h1>
-      <div className="d-flex flex-wrap">
-        <Search team={team} setFilteredPlayers={setFilteredPlayers} />
+      <Search className="search-bar" team={team} setFilteredPlayers={setFilteredPlayers} />
+      <div className="playercards-layout">
         {filteredPlayers.map((player) => (
           <PlayerCard key={player.firebaseKey} playerObj={player} onUpdate={getTeam} />
         ))}
