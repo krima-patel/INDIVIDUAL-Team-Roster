@@ -18,7 +18,7 @@ export default function Search({ team, setFilteredPlayers }) {
   return (
     <Form className="search">
       <Form.Control className="searchInput" placeholder="Search Players" value={searchInput} onChange={handleChange} />
-      <Button type="button" value="" onClick={initialState}>Clear</Button>
+      <Button className="clear-btn" type="button" value="" onClick={initialState}>Clear</Button>
     </Form>
   );
 }
