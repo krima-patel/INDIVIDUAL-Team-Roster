@@ -1,11 +1,11 @@
 
-# K-NBA Team Roster
+# 🏆🏀 K-NBA Team Roster 🏀🏆
 
 K-NBA is an NBA Team Roster, where fans of professional basketball get to create their own dream team. They can customize the roster with players they could only dream of seeing playing on one team.
 
 
 
-## Primary Features
+## 🏀 Primary Features
 
 • Users will be required to authenticate via Google Authentication.
 
@@ -18,7 +18,7 @@ K-NBA is an NBA Team Roster, where fans of professional basketball get to create
 • Authenticated users are able to search players using the search bar.
 
 
-## Target Audience
+## 🏀 Target Audience
 
 The target audience for this project is fans of professional basketball. Fans often wish they could create a team roster and see their favorite players on one dream team. This project allows users to visualize that dream roster.
 ## Purpose
@@ -27,7 +27,7 @@ This project is a fun application created to allow sports lovers to visualize an
 ## Get Started
 
 [Link to Team Roster](https://kp-team-roster.netlify.app/)
-## Help
+## 🏀 Help
 
 If there are any questions, please let me, Krima, know! You can send me an email at patel.krima@hotmail.com and I will get back to you ASAP!
 
